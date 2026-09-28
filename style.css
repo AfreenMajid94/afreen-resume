@@ -1,0 +1,158 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+section h2 {
+    color: #222;
+    font-size: 25px;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #222;
+}
+
+/* Articles */
+article {
+    margin-bottom: 20px;
+}
+
+article:last-child {
+    margin-bottom: 0;
+}
+
+article h3 {
+    color: #444;
+    margin-bottom: 5px;
+}
+
+/* Skills */
+#skills ul {
+    padding-left: 25px;
+}
+
+#skills li {
+    margin-bottom: 8px;
+}
+
+/* Contact */
+address {
+    font-style: normal;
+}
+
+address p {
+    margin-bottom: 8px;
+}
+
+address a {
+    color: #222;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+
+    header {
+        padding: 30px 15px;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    main {
+        padding: 0 10px;
+        margin-top: 20px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    section h2 {
+        font-size: 22px;
+    }
+}
+
